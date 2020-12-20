@@ -9,9 +9,16 @@
   background-color: white;
   padding: 20px;
   border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
 }
 
 .App{
   background-color: #FAFAFA;
   height: 100vh;
+}
+
+.app__signUp{
+  display: flex;
+  flex-direction: column;
 }
